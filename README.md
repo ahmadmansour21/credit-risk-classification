@@ -1,1 +1,4 @@
 # credit-risk-classification
+All of the code was written independently with the help of Xpert AI tool and can be found in credit_risk_classification.ipynb file in the "credit_risk" folder in the credit-risk-classification repository.
+
+First, the Path and pd.read_csv were used to load the data. Then, loan status was identified as the label/y and the rest were identified as features/X. Then, using train_test_split, we split the X and y. We then used the logisticregression model to predict and used .fit to fit our X and y into this model. Then, predictions were made. Finally, a classification report is formed to analyze the accuracy of the model.
